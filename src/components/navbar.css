@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.mlist ul{
+    display: flex;
+    align-items: center;
+}
+.mlist ul li{
+   margin:0 18px ;
+   
+}
+.mlist ul li a{
+    display: block; 
+    color: rgb(46, 45, 45);
+}
+header img{
+    width: 100%;
+    height: 650px;
+}
+.active{
+    background-color: black;
+    padding:8px 25px;
+    border-radius: 15px;
+    
+}
+.active a{
+    color: white !important;
+}
